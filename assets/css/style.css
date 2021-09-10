@@ -70,21 +70,21 @@ input {
 
 #search-bar {
   margin: 3rem 0 2rem 0;
-  padding: 1rem 2.5rem;
+  padding: 1rem 3rem;
   border: none;
   border-radius: 0.25rem;
   background-color: rgba(255, 255, 255, 0.2);
 
   background-image: url('/assets/img/search.svg');
   background-repeat: no-repeat;
-  background-position: 0.5rem;
+  background-position: 1rem;
   background-size: 1.235rem;
 
   color: var(--white);
 }
 
 #search-bar::placeholder {
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* ===== Main */
