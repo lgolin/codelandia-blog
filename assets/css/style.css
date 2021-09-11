@@ -103,12 +103,12 @@ article {
   background: var(--white);
 }
 
-.like {
+.container-date {
   display: flex;
   justify-content: space-between;
 }
 
-.like i {
+.container-date i {
   color: var(--blue-dark);
   cursor: pointer;
 }
