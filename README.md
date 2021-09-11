@@ -17,7 +17,6 @@ This project was developed for the first challenge of the **[Codelandia](https:/
 ## Layout
 You can view the project layout through the links below:
 - **[Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=0%3A1)**<br>
-You need to have a Figma account to access it.
 ---
 
 ## Getting started
