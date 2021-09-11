@@ -31,4 +31,4 @@ cd codelandia
 
 ---
 
-**Desenvolvido com ❤ por [Laís Golin](https://github.com/lgolin/).**
+**Made with ❤ by [Laís Golin](https://github.com/lgolin/).**
