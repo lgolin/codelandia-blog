@@ -14,13 +14,6 @@ This project was developed for the first challenge of the **[Codelandia](https:/
 - **JavaScript**
 ---
 
-## Demonstration
-[![Codelândia](https://imgur.com/N5ImM4S)](https://lgolin.github.io/codelandia/ "Clique para acessar o projeto")   
-
-You can access the project by **clicking on the image above**.
-
----
-
 ## Layout
 You can view the project layout through the links below:
 - **[Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=0%3A1)**<br>
@@ -35,12 +28,6 @@ git clone https://github.com/Saesel/codelandia
 cd codelandia
 ```
 **OBS:** It is recommended that you use liveserver to access the project on your local server [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
----
-
-## Licença
-
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/lgolin/codelandia/blob/main/LICENSE).
 
 ---
 
