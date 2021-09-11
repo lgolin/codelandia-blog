@@ -15,7 +15,7 @@ This project was developed for the first challenge of the **[Codelandia](https:/
 ---
 
 ## Demonstration
-[![Codelândia](https://imgur.com/a/9GqDXg7)](https://lgolin.github.io/codelandia/ "Clique para acessar o projeto")   
+[![Codelândia](https://imgur.com/N5ImM4S)](https://lgolin.github.io/codelandia/ "Clique para acessar o projeto")   
 
 You can access the project by **clicking on the image above**.
 
@@ -45,4 +45,3 @@ O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](
 ---
 
 **Desenvolvido com ❤ por [Laís Golin](https://github.com/lgolin/).**
-~~~
