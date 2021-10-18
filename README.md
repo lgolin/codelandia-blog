@@ -23,8 +23,8 @@ You can view the project layout through the links below:
 
 ```bash
 # Clone the project and access the folder.
-git clone https://github.com/lgolin/codelandia-blog
-cd codelandia-blog
+git clone https://github.com/Saesel/codelandia
+cd codelandia
 ```
 **OBS:** It is recommended that you use liveserver to access the project on your local server [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
