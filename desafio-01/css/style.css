@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+/* ===== Root ===== */
+:root {
+  --purple: #574ae8;
+  --dark: #313131;
+  --dark-grey: #475461;
+  --grey: #b6b6b6;
+  --light-grey: #f3f5f7;
+  --white: #ffffff;
+  --bg: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+
+  --inter: 'Inter', sans-serif;
+  --lexend: 'Lexend Deca', sans-serif;
+
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-24: 1.5rem;
+}
+
+/* ===== Reset ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 787px) {
+  html {
+    font-size: 80%;
+  }
+
+  .container {
+    max-width: 87%;
+    margin: 0 auto;
+  }
+}
+/* ===== Header ===== */
+
+html {
+  font-size: 90%;
+}
+
+body {
+  background: var(--light-grey);
+  font-family: var(--lexend);
+  /* font-size: calc(0.75em + 1vmin); */
+}
+
+header {
+  background: var(--bg);
+  height: 250px;
+  color: var(--white);
+}
+
+header h2 {
+  font-family: var(--lexend);
+  font-weight: 400;
+  font-size: var(--font-size-24);
+}
+
+header .header {
+  padding: 40px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header input {
+  width: 100%;
+  height: 65px;
+
+  border-radius: 5px;
+  border: none;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--white);
+}
+
+input {
+  background: url('../img/search.svg') no-repeat;
+  background-position: 12px;
+}
+
+.field {
+  padding-left: 4rem;
+  font-family: var(--inter);
+  font-size: var(--font-size-18);
+}
+
+.field::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ================= */
+section {
+  margin-top: 6.25rem;
+}
+
+.container_blog {
+  background: var(--white);
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+  margin-bottom: 3.125rem;
+  padding: 1.5rem;
+}
+
+article .date {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+article .date p {
+  font-weight: 400;
+  font-family: var(--lexend);
+  font-size: var(--font-size-16);
+  color: var(--grey);
+  margin-bottom: 1.25rem;
+}
+
+.container_blog h2 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.container_blog p {
+  font-weight: 400;
+  font-size: var(--font-size-18);
+  color: var(--grey);
+  line-height: 2rem;
+}
+
+.likes {
+  background: var(--purple);
+  cursor: pointer;
+}
