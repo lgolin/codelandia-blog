@@ -1,144 +1,132 @@
-/* ===== Reset */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+/* ===== Root ===== */
+:root {
+  --purple: #574ae8;
+  --dark: #313131;
+  --dark-grey: #475461;
+  --grey: #b6b6b6;
+  --light-grey: #f3f5f7;
+  --white: #ffffff;
+  --bg: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+
+  --inter: 'Inter', sans-serif;
+  --lexend: 'Lexend Deca', sans-serif;
+
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-24: 1.5rem;
+}
+
+/* ===== Reset ===== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== Variaveis */
-:root {
-  --blue: #3ea1db;
-  --blue-dark: #574ae8;
-  --white: #fff;
-
-  --title: #313131;
-  --text: #a8a8b3;
-  --background: #f3f5f7;
-
-  --linear: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
-}
-
-/* ===== Base */
-body {
-  background: var(--background);
-  font-family: 'Inter', sans-serif;
-}
-
 .container {
-  max-width: 900px;
+  max-width: 60%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
-/* ===== Navbar */
+@media only screen and (max-width: 787px) {
+  html {
+    font-size: 80%;
+  }
+
+  .container {
+    max-width: 87%;
+    margin: 0 auto;
+  }
+}
+/* ===== Header ===== */
+
+body {
+  background: var(--light-grey);
+  font-family: var(--lexend);
+  /* font-size: calc(0.75em + 1vmin); */
+}
+
 header {
-  width: 100%;
-  position: relative;
-  background: var(--linear);
+  background: var(--bg);
+  height: 250px;
+  color: var(--white);
 }
 
-header nav ul {
+header h2 {
+  font-family: var(--lexend);
+  font-weight: 400;
+  font-size: var(--font-size-24);
+}
+
+header .header {
+  padding: 40px 0 70px 0;
   display: flex;
   justify-content: space-between;
 }
 
-header nav ul li {
-  text-decoration: none;
-  list-style: none;
-}
+header input {
+  width: 100%;
+  height: 65px;
 
-header nav ul li a {
-  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+
+  background-color: rgba(255, 255, 255, 0.2);
   color: var(--white);
-}
-
-nav {
-  margin-top: 1rem;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-family: 400 'Lexend Deca', sans-serif;
 }
 
 input {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;
+  background: url('../img/search.svg') no-repeat 10px;
 }
 
-#search-bar {
-  margin: 3rem 0 2rem 0;
-  padding: 1rem 3rem;
-  border: none;
-  border-radius: 0.25rem;
-  background-color: rgba(255, 255, 255, 0.2);
-
-  background-image: url('/assets/img/search.svg');
-  background-repeat: no-repeat;
-  background-position: 1rem;
-  background-size: 1.235rem;
-
-  color: var(--white);
+.field {
+  padding-left: 4rem;
+  font-family: var(--inter);
+  font-size: var(--font-size-18);
 }
 
-#search-bar::placeholder {
+.field::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* ===== Main */
-
-main article:first-child {
-  margin-top: 4rem;
+/* ================= */
+section {
+  margin-top: 6.25rem;
 }
 
-article {
-  width: 100%;
-  height: auto;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+.container_blog {
   background: var(--white);
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+  margin-bottom: 3.125rem;
+  padding: 1.5rem;
 }
 
-.container-date {
+article .date {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
-.container-date i {
-  color: var(--blue-dark);
-  cursor: pointer;
+article .date p {
+  font-weight: 400;
+  font-family: var(--lexend);
+  font-size: var(--font-size-16);
+  color: var(--grey);
+  margin-bottom: 1.25rem;
 }
 
-.date {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text);
+.container_blog h2 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
-.title {
-  margin: 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 450;
-  font-family: 'Lexend Deca', sans-serif;
-  color: var(--title);
-}
-
-.description {
-  font-size: 1rem;
-  color: var(--text);
-  line-height: calc(1rem * 1.5);
-}
-
-/* ===== Responsive */
-@media (max-width: 1024px) {
-
-  .container,
-  main {
-    max-width: 80%;
-    margin: 0 auto;
-  }
+.container_blog p {
+  font-weight: 400;
+  font-size: var(--font-size-18);
+  color: var(--grey);
+  line-height: 2rem;
 }
