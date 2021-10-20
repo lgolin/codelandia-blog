@@ -6,6 +6,7 @@
 ## About   
 This project was developed for the first challenge of the **[Codelandia](https://discord.com/invite/QevDJqCzaY)** community. The aim of this project was to practice frontend development by developing a simple news blog. 
 
+![](img/image.gif)
 ---
 
 ## Technologies
